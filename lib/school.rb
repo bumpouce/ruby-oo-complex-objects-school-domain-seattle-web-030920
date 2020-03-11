@@ -1,6 +1,5 @@
 class School
 
-<<<<<<< HEAD
   attr_accessor :name, :roster
 
   def initialize (name)
@@ -23,7 +22,6 @@ class School
     @roster.each {|grade, students| students.sort!}
   end 
   
-=======
   def initialize (name)
     @name = name
   end
@@ -45,5 +43,4 @@ class School
     @roster
   end
 
->>>>>>> b3e9d7c06df51276a2609889e0e8d6ada064272b
 end
